@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Артём — Python-разработчик. FastAPI, Tkinter, SQLite, компьютерное зрение. Проекты и контакты.">
+    <meta name="theme-color" content="#f7f5f0">
+    <title>Артём — Python-разработчик</title>
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%234f46e5'/><text x='32' y='45' font-size='36' font-family='Arial' font-weight='bold' text-anchor='middle' fill='white'>А</text></svg>">
+    <link rel="stylesheet" href="styles.css">
+    <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+    <header class="site-header" id="top">
+        <div class="container header-inner">
+            <a class="brand" href="#top">
+                <span class="brand-mark" aria-hidden="true">А</span>
+                <span class="brand-text">
+                    <strong>Артём</strong>
+                    <small>Python-разработчик</small>
+                </span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="site-nav">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="site-nav" id="site-nav" aria-label="Основная навигация">
+                <a href="#about">Обо мне</a>
+                <a href="#skills">Навыки</a>
+                <a href="#projects">Проекты</a>
+                <a href="#contacts">Контакты</a>
+                <a class="btn btn-small btn-dark" href="https://github.com/itisdurak" target="_blank" rel="noopener">
+                    GitHub
+                    <svg aria-hidden="true" viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.2 1.9 1.2 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5Z"/></svg>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <!-- HERO -->
+        <section class="hero container">
+            <div class="hero-copy reveal">
+                <p class="eyebrow"><span class="dot"></span> Открыт к новым проектам</p>
+                <h1>Привет, я Артём.<br> Пишу на Python и делаю вещи, которыми хочется пользоваться.</h1>
+                <p class="lead">
+                    Разрабатываю веб-приложения на FastAPI, настольные игры на Tkinter
+                    и экспериментирую с компьютерным зрением. Довожу проекты
+                    от идеи до готового результата: код, тесты, сборка, публикация.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#projects">
+                        Смотреть проекты
+                        <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6 6 6-6 6"/></svg>
+                    </a>
+                    <a class="btn btn-ghost" href="#contacts">Связаться</a>
+                </div>
+            </div>
+
+            <div class="hero-card reveal" aria-label="Краткая информация обо мне">
+                <div class="card-top">
+                    <span class="status"><span class="dot"></span> online</span>
+                    <span class="file-name">developer.py</span>
+                </div>
+                <pre aria-hidden="true"><code><span class="c-key">class</span> <span class="c-type">Developer</span>:
+    name = <span class="c-str">"Артём"</span>
+    role = <span class="c-str">"Python-разработчик"</span>
+    stack = [<span class="c-str">"FastAPI"</span>, <span class="c-str">"Tkinter"</span>, <span class="c-str">"SQLite"</span>]
+    focus = <span class="c-str">"чистый код и готовый продукт"</span>
+
+    <span class="c-key">def</span> <span class="c-fn">build</span>(self, idea):
+        <span class="c-key">return</span> idea → код → тесты → <span class="c-str">".exe"</span></code></pre>
+                <div class="card-bottom">
+                    <span>Python 3</span>
+                    <span>FastAPI</span>
+                    <span>Tkinter</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section container" id="about">
+            <div class="section-head reveal">
+                <p class="eyebrow">01 — Обо мне</p>
+                <h2>Учусь, делая реальные проекты</h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>
+                        Мне нравится превращать идеи в работающие программы. Начинал
+                        с консольных игр, а сейчас делаю веб-приложения с базой данных,
+                        настольные игры с интерфейсом и распознавание жестов по камере.
+                    </p>
+                    <p>
+                        Не бросаю проект на половине: пишу тесты, исправляю баги,
+                        собираю exe и публикую код на GitHub. Считаю, что лучший способ
+                        научиться — довести дело до конца.
+                    </p>
+                </div>
+
+                <ul class="facts reveal">
+                    <li>
+                        <span class="fact-icon" aria-hidden="true">⌨</span>
+                        <div><strong>Основной язык</strong><span>Python</span></div>
+                    </li>
+                    <li>
+                        <span class="fact-icon" aria-hidden="true">◈</span>
+                        <div><strong>Что делаю</strong><span>веб-приложения, игры, компьютерное зрение</span></div>
+                    </li>
+                    <li>
+                        <span class="fact-icon" aria-hidden="true">✓</span>
+                        <div><strong>Подход</strong><span>от идеи до тестов и готовой сборки</span></div>
+                    </li>
+                    <li>
+                        <span class="fact-icon" aria-hidden="true">↗</span>
+                        <div><strong>Открыт к</strong><span>стажировке, junior-вакансиям и интересным задачам</span></div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section container" id="skills">
+            <div class="section-head reveal">
+                <p class="eyebrow">02 — Навыки</p>
+                <h2>Технологии, с которыми работаю</h2>
+            </div>
+
+            <ul class="skills reveal">
+                <li class="skill skill-main">Python</li>
+                <li class="skill">FastAPI</li>
+                <li class="skill">SQLite</li>
+                <li class="skill">Tkinter</li>
+                <li class="skill">Jinja2</li>
+                <li class="skill">OpenCV</li>
+                <li class="skill">MediaPipe</li>
+                <li class="skill">Pandas</li>
+                <li class="skill">Git</li>
+                <li class="skill">HTML / CSS</li>
+                <li class="skill">JavaScript</li>
+                <li class="skill">PyInstaller</li>
+            </ul>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section container" id="projects">
+            <div class="section-head reveal">
+                <p class="eyebrow">03 — Проекты</p>
+                <h2>Что уже сделано</h2>
+            </div>
+
+            <div class="project-grid">
+                <article class="project reveal">
+                    <div class="project-top">
+                        <span class="project-icon" aria-hidden="true">⚔</span>
+                        <span class="project-status">готовый .exe</span>
+                    </div>
+                    <h3>Saga: Арена героев</h3>
+                    <p>
+                        Пошаговая игра с четырьмя классами героев, способностями,
+                        критами и ИИ противника. Интерфейс на Tkinter, сборка в один
+                        исполняемый файл.
+                    </p>
+                    <ul class="tags">
+                        <li>Python</li><li>Tkinter</li><li>PyInstaller</li>
+                    </ul>
+                    <a class="project-link" href="https://github.com/itisdurak" target="_blank" rel="noopener">
+                        Проекты на GitHub
+                        <svg aria-hidden="true" viewBox="0 0 24 24" width="16" height="16"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 17 17 7M8 7h9v9"/></svg>
+                    </a>
+                </article>
+
+                <article class="project reveal">
+                    <div class="project-top">
+                        <span class="project-icon" aria-hidden="true">✓</span>
+                        <span class="project-status">pet-проект</span>
+                    </div>
+                    <h3>TaskFlow</h3>
+                    <p>
+                        To-do трекер на FastAPI: приоритеты, дедлайны, фильтры и
+                        прогресс выполнения. Задачи хранятся в SQLite и не теряются
+                        после перезапуска.
+                    </p>
+                    <ul class="tags">
+                        <li>FastAPI</li><li>SQLite</li><li>Jinja2</li>
+                    </ul>
+                </article>
+
+                <article class="project reveal">
+                    <div class="project-top">
+                        <span class="project-icon" aria-hidden="true">✋</span>
+                        <span class="project-status">эксперимент</span>
+                    </div>
+                    <h3>VisonPython</h3>
+                    <p>
+                        Распознавание жестов руки через камеру. OpenCV и MediaPipe
+                        определяют жест, а интерфейс показывает соответствующую
+                        картинку в реальном времени.
+                    </p>
+                    <ul class="tags">
+                        <li>OpenCV</li><li>MediaPipe</li><li>Python</li>
+                    </ul>
+                </article>
+
+                <article class="project reveal">
+                    <div class="project-top">
+                        <span class="project-icon" aria-hidden="true">📈</span>
+                        <span class="project-status">анализ данных</span>
+                    </div>
+                    <h3>Анализ акций Sony</h3>
+                    <p>
+                        Учебный проект по анализу биржевых данных: загрузка CSV,
+                        обработка в Pandas и визуализация динамики стоимости акций.
+                    </p>
+                    <ul class="tags">
+                        <li>Pandas</li><li>Jupyter</li><li>Matplotlib</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- CONTACTS -->
+        <section class="section container" id="contacts">
+            <div class="contact-card reveal">
+                <div>
+                    <p class="eyebrow eyebrow-light">04 — Контакты</p>
+                    <h2>Давай сделаем что-нибудь классное</h2>
+                    <p>
+                        Открыт к стажировкам, junior-вакансиям и интересным проектам.
+                        Быстрее всего отвечу на GitHub.
+                    </p>
+                </div>
+                <div class="contact-actions">
+                    <a class="btn btn-light" href="https://github.com/itisdurak" target="_blank" rel="noopener">
+                        <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.2 1.9 1.2 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5Z"/></svg>
+                        github.com/itisdurak
+                    </a>
+                    <a class="btn btn-outline-light" href="https://github.com/itisdurak/progs" target="_blank" rel="noopener">Посмотреть код</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year">2026</span> Артём. Сделано на чистом HTML, CSS и JavaScript.</p>
+            <a href="#top">Наверх ↑</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
